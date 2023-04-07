@@ -1,6 +1,6 @@
 const emojiList = document.getElementById('emoji_list');
 const counterList = document.getElementById('counter_list');
-const emoji = ['😡', '😠', '😐', '😊', '😍'];
+const emoji = ['😀', '😍', '😡', '😭', '😂'];
 const counter = [0, 0, 0, 0, 0];
 
 let emojiHTML = '';
