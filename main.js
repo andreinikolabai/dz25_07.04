@@ -13,10 +13,10 @@ emojiList.innerHTML = emojiHTML;
 counterList.innerHTML = counterHTML;
 
 emojiList.addEventListener('click', function(event) {
-    const emojiElement = event.target.closest('.emoji'); // знаходимо елемент смайлика
+    const emojiElement = event.target.closest('.emoji');
     if (emojiElement) {
-        const emojiIndex = emojiElement.dataset.index; // знаходимо індекс смайлика
-        counters[emojiIndex]++; // збільшуємо лічильник
-        counterList.children[emojiIndex].textContent = counters[emojiIndex]; // оновлюємо лічильник на сторінці
+        const emojiIndex = emojiElement.dataset.index;
+        counters[emojiIndex]++;
+        counterList.children[emojiIndex].textContent = counters[emojiIndex];
     }
 });
